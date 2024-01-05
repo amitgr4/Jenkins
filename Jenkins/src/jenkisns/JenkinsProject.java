@@ -1,11 +1,19 @@
 package jenkisns;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class JenkinsProject {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("this is java project learn git");
-		System.out.println("this is jenkins");
+		
+		    Date date = new Date();  
+		    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");  
+		    String strDate= formatter.format(date);  
+		    System.out.println(strDate);  
+		    System.out.println("this is java project learn git");
+		    System.out.println("This is jenkins");
+		
 	    
 
 	}
